@@ -3,8 +3,10 @@ const favicon = require('express-favicon');
 const path = require('path');
 const createError = require('http-errors');
 const cleanCSS = require('./public/stylesheet/cleanCSS');
+const compressImage = require('./public/images/compressImage');
 
 cleanCSS();
+// compressImage();
 
 const app = express();
 const http = require('http').createServer(app);

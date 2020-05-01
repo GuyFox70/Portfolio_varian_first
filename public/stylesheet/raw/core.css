@@ -4,4 +4,9 @@
     height: 2000px;
     background: rgb(54, 41, 20);
     margin: auto;
-  }
+}
+
+.width {
+  width: 60.6%;
+  margin: auto;
+}

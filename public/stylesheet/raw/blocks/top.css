@@ -1,14 +1,17 @@
-.top-navigation {
+.top {
   width: 100%;
-  background: url('../images/background/texture_1.png') no-repeat center;
+  background: url('/images/compress/texture_1.png') no-repeat center;
   background-size: cover;
+  padding-bottom: 1.5%;
+  box-sizing: border-box;
+}
+
+.top-navigation {
   padding-top: 1.5%;
   box-sizing: border-box;
 }
 
 .wrap-menu {
-  width: 60.6%;
-  margin: auto;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -46,4 +49,60 @@
   font-family: "Arial";
   color: rgb(175, 150, 113);
   line-height: 18px;
+}
+
+.wrap-introduce {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 50px;
+}
+
+.aboutME,
+.designer {
+  width: 49%;
+}
+
+.subheading {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 18px;
+  font-weight: normal;
+  line-height: 20px;
+  color: #ff9933;
+  text-transform: uppercase;
+  margin-bottom: 15px;
+}
+
+.description {
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-weight: normal;
+  font-size: 17px;
+  line-height: 20px;
+  color: #999966;
+  margin-bottom: 15px;
+}
+
+.border {
+  display: flex;
+  justify-content: space-between;
+}
+
+.folder,
+.text {
+  width: 49%;
+}
+
+.folder>img {
+  width: 100%;
+  height: 100%;
+}
+
+.flex {
+  display: flex;
+  flex-direction: column;
+}
+
+.email-link {
+  color: #ff9933;
+  text-decoration: none;
+  margin-left: 5px;
 }

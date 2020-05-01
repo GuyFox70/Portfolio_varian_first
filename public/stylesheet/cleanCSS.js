@@ -6,7 +6,8 @@ const options = {level: 2};
 const arrCss = [
   '/raw/fonts.css',
   '/raw/core.css',
-  '/raw/blocks/top.css'
+  '/raw/blocks/top.css',
+  '/raw/blocks/middle.css'
 ];
 
 

@@ -1,0 +1,74 @@
+.middle {
+  background: url('/images/compress/middleBackground.png');
+  width: 100%;
+  box-shadow: 0px -4px 1px rgba(0, 0, 0, .5);
+  border-top: 1px solid #333300;
+}
+
+.wrap-for_examples {
+  width: 60.6%;
+  margin: auto;
+  border: .1px solid rgba(0, 0, 0, 0);
+}
+
+.indent {
+  margin: 2% 0 2% 0;
+}
+
+.gallery {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  /* border: .1px solid green; */
+}
+
+.gallery-item {
+  max-width: 300px;
+  min-width: 100px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.border-screen {
+  outline: 1px solid #333300;
+  padding: 1%;
+  box-sizing: border-box;
+}
+
+.gallery-screen {
+  display: block;
+}
+
+.gallery-screen {
+  width: 100%;
+  height: 100%;
+}
+
+.sign-item {
+  width: 100%;
+  display: block;
+  padding-left: 1%;
+  box-sizing: border-box;
+  margin-bottom: 5%;
+}
+
+.sign-item-up {
+  display: block;
+  color: rgb(175, 150, 113);
+  margin: 3% 0 1% 0;
+}
+
+.sign-item-down {
+  color: #cccc99;
+}
+
+.sign-item-up,
+.sign-item-down {
+  font-size: 14px;
+  font-family: "Georgia";
+  font-weight: bold;
+  text-align: left;
+}
