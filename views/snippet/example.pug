@@ -1,0 +1,11 @@
+div(class="wrap-for_examples width_layout")
+  h2(class="subheading indent") my work
+  div(class="gallery")
+    each elem, index in sources
+      div(class="gallery-item")
+        div(class="border-screen")
+          a(href="#")
+            img(src= elem.src class="gallery-screen")
+        p(class="sign-item")
+          span(class="sign-item-up")= elem.signUp
+          span(class="sign-item-down")= elem.signDown
