@@ -1,3 +1,35 @@
 {
-
+  "Customer": {
+    "port": "1234",
+    "mail": "artm.orlov.88@list.ru"
+  },
+  "pictures": [
+      {"src": "/images/compress/one.png", "name": "My Corporate Website", "description": "Personal project from Octobe, 2009"},
+      {"src": "/images/compress/two.png", "name": "John Doe Design Portfolio", "description": "Personal project from Septemper, 2009"},
+      {"src": "/images/compress/three.png", "name": "John Smith Design Portfolio", "description": "Personal project from August, 2009"},
+      {"src": "/images/compress/four.png", "name": "Project Title", "description": "Project descrition and date"},
+      {"src": "/images/compress/five.png", "name": "Project Title", "description": "Project descrition and date"},
+      {"src": "/images/compress/six.png", "name": "Project Title", "description": "Project descrition and date"},
+      {"src": "/images/compress/seven.png", "name": "Project Title", "description": "Project descrition and date"},
+      {"src": "/images/compress/eight.png", "name": "Project Title", "description": "Project descrition and date"},
+      {"src": "/images/compress/nine.png", "name": "Project Title", "description": "Project descrition and date"}
+    ],
+    "services": [
+      {"heading": "Web Design", "text": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quod delectus, distinctio qui dolorem quas fuga, maxime ipsam tempore illo voluptates ratione consequuntur incidunt mollitia beatae odio ad. Assumenda."},
+      {"heading": "Web Devolopment", "text": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Doloremque incidunt fugiat temporibus ab quibusdam eaque officiis, nisi earum? Nulla excepturi consequuntur perspiciatis nostrum qui, laboriosam corrupti sapiente quidem."},
+      {"heading": "Graphic Design", "text": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Doloremque incidunt fugiat temporibus ab quibusdam eaque officiis, nisi earum? Nulla excepturi consequuntur perspiciatis nostrum qui, laboriosam corrupti sapiente quidem."}
+    ],
+    "tweets": [
+      {"text": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Explicabo aspernatur soluta dolores officia sit illo tenetur ullam fuga nobis voluptatum placeat deleniti, natus quisquam."},
+      {"text": "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quo, tempore corporis maxime quisquam vel laborum fugit modi amet nisi voluptatum illum tempora necessitatibus corrupti."},
+      {"text": " Lorem ipsum dolor sit amet consectetur, adipisicing elit. Amet est deleniti laboriosam qui, ducimus cumque, assumenda earum ipsum facere obcaecati hic dicta? Aut, ullam?"},
+      {"text": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Nulla quasi temporibus, modi nesciunt quia illum in eaque quod! Ullam, pariatur! Dolores, molestias necessitatibus! Commodi?"},
+      {"text": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Blanditiis ea quaerat sit minima quis inventore aliquam eligendi voluptas accusamus culpa! Labore laudantium sint nesciunt."}
+    ],
+    "icons": [
+      {"src": "/images/compress/small_twitter.png", "text": "Twitter"},
+      {"src": "/images/compress/small_delicious.png", "text": "Delicious"},
+      {"src": "/images/compress/small_flickr.png", "text": "Flickr"}
+    ]
+  
 }

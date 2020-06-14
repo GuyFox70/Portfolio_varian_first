@@ -2,10 +2,11 @@ const express = require('express');
 const favicon = require('express-favicon');
 const path = require('path');
 const createError = require('http-errors');
+const config = require('config');
 const cleanCSS = require('./public/stylesheet/cleanCSS');
 const compressImage = require('./public/images/compressImage');
 
-cleanCSS();
+// cleanCSS();
 // compressImage();
 
 const app = express();
@@ -36,6 +37,6 @@ app.use(function(err, req, res, next) {
   
 });
 
-let server = http.listen('1234', () => {
+let server = http.listen(config.get('Customer.port'), () => {
   console.log('server Ok)');
 });
